@@ -15,3 +15,6 @@ For å bygge docker bildet som vi kommer til å bruke for å kjøre vår kontain
 
 Vi kjører ut docker kontaineren ved å bruke kommandoen "docker run --name minnettside -p 8080:80 -d nettside_bilde1". Hvorav i denne kommandoen spesifiserer "--name" navnet til kontaineren, "-p" spesifiserer hvilken porter eksterne porter som skal bli åpnet og til slutt "-d" som spesifiserer hvilket bilde som skal bli brukt.
 
+***Steg 4 - Verifisere at nettsiden kjører***
+
+For å sjekke at nettsiden fungerer som tiltenkt kan du bruke en nettleser og gå til "http://localhost:8080" eller "http://verts-ip-adressen:8080". En kan også verifisere at kontaineren kjører ved å bruke kommandoen "docker ps", hvis du tror kontaineren kan være i stoppet status kan legge til "-a" taggen.
